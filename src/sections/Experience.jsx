@@ -1,45 +1,51 @@
 const experiences = [
   {
-    period: "2022 — Present",
+    period: "Dec 2023 — July 2025",
     role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
-    description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+    company: "DTDC Express Pvt Ltd",
+    description: "Developed and maintained the Tracking Modernization, integrating real-time API data and milestones for India's logistics network. Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, Improved website load times by 40% through performance optimization techniques. Collaborated with backend teams and cross-functional teams to ensure seamless API integration. and mentored a team of 5 developers.",
+    technologies: ["ReactJS", "Redux", "JavaScript (ES6+)", "HTML5", "CSS3", "TailwindCSS", "AWS", "REST APIs", "Agile Methodologies", "Micro Frontend Architecture"],
     current: true,
   },
   {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
-    description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
+    period: "Dec 2022 — Nov 2023",
+    role: "Frontend Developer",
+    company: "Redcliffe Labs Pvt Ltd",
+    description:"Migrated ReactJS - based applications to NextJS, enhancing SEO and increasing organic traffic by 25%. Designed reusable components and state management solutions, reducing development time for new features by 30%. Designed and implemented Laboratory Information Management System (LIMS) to stream line work flows and sample data management. Designed GIT management and code deployment strategy.",
+    technologies: ["React", "NextJS", "JavaScript (ES6+)", "Redux", "HTML", "CSS", "GitHub", "Figma", "Micro Frontend Architecture", "Agile Methodologies"],
     current: false,
   },
   {
-    period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
-    description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
+    period: "Feb 2022 — May 2022",
+    role: "Software Developer",
+    company: "Hash Include Computech Pvt Ltd",
+    description: "Contributed to the Cyber CNS project by developing frontend modules for cybersecurity monitoring and reporting dashboards using React.js. Built reusable and modular UI components to support real-time data visualization and dynamic dashboard updates. Integrated RESTful APIs to display live network security metrics, alerts, and insights within the UI.",
+    technologies: ["ReactJs", "Redux", "HTML5","CSS3", "Javascript", "AWS", "Docker", "REST APIs", "Microservices architecture", "Agile Methodologies"],
     current: false,
   },
   {
-    period: "2018 — 2019",
-    role: "Freelance Developer",
-    company: "Self-Employed",
+    period: "Aug 2021 – Dec 2021 ",
+    role: "Software Developer",
+    company: "Counfreedice Retails Service Pvt Ltd.",
     description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
+      "Developed and deployed internal customer service and automation web applications using React.js, JavaScript, HTML5, and CSS3, focusing on performance and usability. Designed and implemented a WhatsApp Chatbot UI with dynamic message handling and real-time interactions, ensuring seamless user experience. Worked closely with backend teams to integrate REST APIs hosted on AWS (Lambda, API Gateway) into React-based frontend applications.",
+    technologies: ["ReactJs", "Redux", "HTML5","CSS3", "JavaScript"],
+    current: false,
+  },
+   {
+    period: "April 2018 - July 2021",
+    role: "Frontend Developer",
+    company: "Learn and Lead Talent Solution Pvt Ltd.",
+    description:
+      "Delivered responsive e-commerce platforms and web applications using ReactJS and Django. Improved site performance by compressing assets and optimizing HTTP requests. Spearheaded the deployment of applications on Linux-based private cloud servers. Troubleshoot technical issues and identify Remediate bugs and issues found during testing. Successfully collaborated with Agile teams to implement scalable architectures.",
+    technologies: ["ReactJs", "Redux", "HTML5","CSS3", "JavaScript", "NodeJS", "ExpressJS"],
     current: false,
   },
 ];
 
 export const Experience = () => {
   return (
-    <section id="experience" className="py-32 relative overflow-hidden">
+    <section id="experience" className="py-10 relative overflow-hidden">
       <div
         className="absolute top-1/2 left-1/4 w-96
        h-96 bg-primary/5 rounded-full blur-3xl -translate-y-1/2"
@@ -110,7 +116,7 @@ export const Experience = () => {
                     </span>
                     <h3 className="text-xl font-semibold mt-2">{exp.role}</h3>
                     <p className="text-muted-foreground">{exp.company}</p>
-                    <p className="text-sm text-muted-foreground mt-4">
+                    <p className="text-sm text-muted-foreground mt-4 text-justify text-left">
                       {exp.description}
                     </p>
                     <div

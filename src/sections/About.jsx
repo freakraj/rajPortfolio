@@ -28,7 +28,7 @@ const highlights = [
 
 export const About = () => {
   return (
-    <section id="about" className="py-32 relative overflow-hidden">
+    <section id="about" className="py-10 relative overflow-hidden">
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Column */}
@@ -49,22 +49,26 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+               I’m a Senior Frontend Developer with 6+ years of experience building fast, 
+               responsive, and scalable web applications using React.js, Next.js, JavaScript, 
+               Redux, HTML, CSS, and AWS. I also have working knowledge of server-side development 
+               and have contributed end-to-end on major products in logistics, SaaS, and enterprise domains.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+              I specialize in crafting pixel-perfect UI/UX, building component-based architectures, 
+              and optimizing performance and SEO for web applications. I’ve worked closely with 
+              cross-functional teams, including backend, 
+              product, and design, to deliver robust and user-centric features.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+               I’ve also implemented features like WebSockets, PWA (Progressive Web Apps), 
+               and complex form handling across modern SPAs. My work focuses on clean, 
+               maintainable code and performance improvements that directly impact user experience.
+              </p>
+              <p>
+               I’m currently actively exploring new opportunities in forward-thinking, product-based 
+               companies or fast-growing startups where I can contribute to impactful frontend engineering 
+               and grow with the team.
               </p>
             </div>
 

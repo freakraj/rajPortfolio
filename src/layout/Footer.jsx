@@ -1,8 +1,8 @@
 import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/freakraj", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/raj-gautam09g/", label: "LinkedIn" },
   { icon: Twitter, href: "#", label: "Twitter" },
 ];
 
@@ -23,10 +23,10 @@ export const Footer = () => {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#" className="text-xl font-bold tracking-tight">
-              PM<span className="text-primary">.</span>
+              RJ<span className="text-primary">.</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Pedro Machado. All rights reserved.
+              © {currentYear} Raj Gautam. All rights reserved.
             </p>
           </div>
 
@@ -44,13 +44,27 @@ export const Footer = () => {
           </nav>
 
           {/* Social Links */}
-          <div className="flex items-center gap-4">
-            {socialLinks.map((social) => (
+          {/* <div className="flex items-center gap-4">
+              {socialLinks.map((social) => (
+                <a
+                  key={social.label}
+                  href={social.href}
+                  aria-label={social.label}
+                  className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
+                >
+                  <social.icon className="w-5 h-5" />
+                </a>
+              ))}
+            </div> */}
+          <div className="flex items-center gap-4 animate-fade-in">
+            <span className="text-sm text-muted-foreground">Follow me: </span>
+            {socialLinks.map((social, idx) => (
               <a
-                key={social.label}
+                key={idx}
                 href={social.href}
-                aria-label={social.label}
-                className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
               >
                 <social.icon className="w-5 h-5" />
               </a>
