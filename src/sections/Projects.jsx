@@ -5,7 +5,7 @@ const projects = [
     title: "Dtdc Express",
     description:
       "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "public/dtdc-express.png",
+    image: "/dtdc-express.jpg",
     tags: ["React", "Typescript", "NodeJS"],
     link: "https://www.dtdc.com/in/",
     github: "#",
@@ -14,7 +14,7 @@ const projects = [
     title: "Redcliffelabs",
     description:
     "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "public/redcliffelabs.png",
+    image: "/redcliffelabs.jpg",
     tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
     link: "#",
     github: "#",
